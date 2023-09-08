@@ -25,6 +25,7 @@
     if (@available(iOS 13.0, *)) {
       self.scrollView.automaticallyAdjustsScrollIndicatorInsets = NO;
     }
+    self.scrollView.bounces = false; //<---- THERE
   }
   return self;
 }
